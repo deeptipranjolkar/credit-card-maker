@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* back side of credit card*/
+.back {
+  position: absolute;
+  left: 280px;
+  top: 400px;
+}
+
+/* cvc number */
+.cvcno {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  color: white;
+  position: absolute;
+  left: 633px;
+  top: 515px;
+}
+
+/* front side of credit card*/
+.front {
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}
+
+.selip {
+  margin-left: 17px;
+  margin-bottom: 9px;
+}
+
+/* card numbers */
+.crd_no {
+  position: absolute;
+  left: 230px;
+  top: 280px;
+}
+
+.e_img {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 230px;
+}
+
+/* card details */
+.c_details {
+  position: absolute;
+  left: 210px;
+  top: 330px;
+}
+
+/* date of expiry */
+.c_date {
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.235em;
+  margin-left: 185px;
+}
+
+.crd_no p {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.30em;
+  font-size: 26px;
+}
+
+/* card holder name */
+.c_name {
+  font-size: 14px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: white;
+}

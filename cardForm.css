@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&display=swap');
+
+* {
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;  
+}
+
+.compo {
+  display: flex;
+}
+
+.form {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-left: 280px;
+  width: 40%;
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  margin-left: -10px;
+  letter-spacing: 0.155em;
+  margin: 0;
+  line-height: 14px;
+}
+
+.cards {
+  width: 382px;
+  height: 44px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+
+::placeholder {
+  color: #BBB9BC;
+  letter-spacing: 1.5px;
+  padding: 10px;
+}
+
+.cardholder {
+  margin-left: 60px;
+}
+
+
+#date label {
+  position: relative;
+  top: 10px;
+  line-height: 17px;
+  right: 55px;
+}
+
+#date {
+  display: flex;
+  margin-left: 56px;
+}
+
+p {
+  color: #404040;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+}
+
+
+.sub {
+  height: 53px;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 50px;
+  margin-left: 55px;
+  background: #220930;
+  width: 382px;
+}
+
+.cvc_error_label {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.my {
+  width: 78px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+label {
+  display: flex;
+  font-family: 'Inter';
+  margin-left: 60px;
+  margin-bottom: 15px;
+  color: #F81212;
+  font-size: 12px;
+}
+
+.detailssubmission {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.cvv {
+  margin-left: 18px;
+}
+
+#cvc {
+  height: 44px;
+  margin-left: 18px;
+  width: 189px;
+}
